@@ -1,3 +1,17 @@
+# Ignore node_modules
 node_modules/
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+
+# Ignore build outputs
+/dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+#environment
 .env
-.vscode
